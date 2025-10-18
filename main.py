@@ -5,9 +5,13 @@ import tkinter as tk
 from src.app import FullMacroApp    
 from src.managers import config_manager
 import logging 
-import sv_ttk
 import sys
 import ctypes
+# Importações explícitas para ajudar o PyInstaller
+from pynput import keyboard, mouse
+import pyautogui
+import pydirectinput
+import sv_ttk
 
 def main():
     """ 

@@ -15,3 +15,8 @@ env/
 
 # Arquivos do VSCode
 .vscode/
+
+# Arquivos gerados pelo PyInstaller
+dist/
+build/
+*.spec

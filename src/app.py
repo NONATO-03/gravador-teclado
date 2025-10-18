@@ -16,6 +16,7 @@ from .managers.hotkey_manager import HotkeyManager
 from .core.player import MacroPlayer
 from .core.recorder import MacroRecorder
 from .ui.settings_window import SettingsWindow
+from .utils import resource_path
 
 
 class FullMacroApp:
@@ -27,7 +28,7 @@ class FullMacroApp:
         self.root.title("Gravador de ações")
         
         try:
-            self.root.iconbitmap('img/icon.ico')
+            self.root.iconbitmap(resource_path('img/icon.ico'))
         except tk.TclError:
             print("Aviso: O arquivo 'img/icon.ico' não foi encontrado ou não pôde ser carregado.")
 
