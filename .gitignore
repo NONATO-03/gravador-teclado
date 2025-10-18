@@ -1,0 +1,17 @@
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração local (não devem ser versionados)
+config.json
+
+# Arquivos de ambiente virtual
+venv/
+.venv/
+env/
+.env
+
+# Arquivos do VSCode
+.vscode/
