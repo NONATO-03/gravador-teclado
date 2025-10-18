@@ -79,11 +79,11 @@ A aplicação permite que os usuários gravem sequências de ações do teclado 
 
 1.  **Clone o repositório (ou baixe os arquivos):**
     ```sh
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone[https://github.com/NONATO-03/gravador-teclado-python.git]
     ```
 2.  **Navegue para o diretório do projeto:**
     ```sh
-    cd teclado
+    cd gravador-teclado-python
     ```
 3.  **Crie e ative um ambiente virtual (recomendado):**
     ```sh
