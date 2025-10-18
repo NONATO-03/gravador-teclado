@@ -55,13 +55,13 @@ The application allows users to record sequences of keyboard and mouse actions a
 ### Screenshots
 
 <p align="center">
-  <img src="img/img_1.png" alt="Main Screen" width="80%">
+  <img src="img/image_1.png" alt="Main Screen" width="80%">
   <br>
   <em>Main application screen.</em>
 </p>
 
 <p align="center">
-  <img src="img/img_2.png" alt="Settings Screen" width="80%">
+  <img src="img/image_2.png" alt="Settings Screen" width="80%">
   <br>
   <em>Settings screen.</em>
 </p>
