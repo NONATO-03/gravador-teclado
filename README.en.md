@@ -8,19 +8,16 @@
 </div>
 
 <p align="center">
-    A robust desktop application for Windows, developed with Python and Tkinter, that allows recording, playing, and managing keyboard and mouse macros with high precision and customization.
-    <br />
-    <a href="#key-features"><strong>Explore the Features »</strong></a>
-    <br />
+    A Windows application written in Python and Tkinter that allows you to record, play, and manage keyboard and mouse macros.
 </p>
 
 ---
 
 ## About the Project
 
-This project is a task automation tool (macro) built in Python, using the native **Tkinter** library for the graphical interface. The goal was to create a complete and professional solution with a modular architecture that separates the recording logic, playback, settings management, and the user interface.
+This project is a task automation tool built in Python, using the native Tkinter library for the graphical interface.
 
-The application allows users to record sequences of keyboard and mouse actions and play them back accurately, offering multiple playback engines for compatibility with different types of applications and games. The settings are persistent, saved in a `config.json` file, allowing hotkeys, themes, and other preferences to be maintained across sessions.
+The application allows users to record sequences of keyboard and mouse actions and play them back, offering multiple playback engines for compatibility with different applications and games. Settings are saved in a `config.json` file.
 
 ### Key Technologies and Concepts
 
@@ -68,14 +65,15 @@ The application allows users to record sequences of keyboard and mouse actions a
 
 ---
 
-### Getting Started
+### Downloads
 
-#### Prerequisites
+Release v1.0.0:https://github.com/NONATO-03/gravador-teclado-python/releases/tag/v1.0.0
 
--   Python 3.x installed on your system
--   `pip` (Python package manager)
+If you prefer running from the source code:
 
-#### Installation and Execution
+Python 3.x installed on your system and `pip` (Python package manager)
+
+Installation and Execution:
 
 1.  **Clone the repository (or download the files):**
     ```sh
