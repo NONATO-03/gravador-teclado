@@ -55,13 +55,13 @@ A aplicação permite que os usuários gravem sequências de ações do teclado 
 ### Capturas de Tela
 
 <p align="center">
-  <img src="img/img_1.png" alt="Tela Principal" width="80%">
+  <img src="img/image_1.png" alt="Tela Principal" width="80%">
   <br>
   <em>Tela principal da aplicação.</em>
 </p>
 
 <p align="center">
-  <img src="img/img_2.png" alt="Tela de Configurações" width="80%">
+  <img src="img/image_2.png" alt="Tela de Configurações" width="80%">
   <br>
   <em>Tela de configurações.</em>
 </p>
