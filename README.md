@@ -4,23 +4,20 @@
 
 <div align="center">
     <img src="img/icon.png" alt="Ícone da Aplicação" width="128"/>
-    <h1>Gravador de Macro</h1>
+    <h1>Gravador de Ações</h1>
 </div>
 
 <p align="center">
-    Uma aplicação de desktop para Windows, desenvolvida com Python e Tkinter, que permite gravar, reproduzir e gerenciar macros de teclado e mouse com alta precisão e personalização.
-    <br />
-    <a href="#recursos-principais"><strong>Explore os Recursos »</strong></a>
-    <br />
+    Uma aplicação para Windows, escrita com Python e Tkinter, que permite gravar, reproduzir e gerenciar macros de teclado e mouse.
 </p>
 
 ---
 
 ## Sobre o Projeto
 
-Este projeto é uma ferramenta de automação de tarefas (macro) construída em Python, utilizando a biblioteca nativa **Tkinter** para a interface gráfica. O objetivo foi criar uma solução completa e profissional, com uma arquitetura modular que separa a lógica de gravação, reprodução, gerenciamento de configurações e a interface do usuário.
+Este projeto é uma ferramenta de automação de tarefas construída em Python, utilizando a biblioteca nativa **Tkinter** para a interface gráfica. 
 
-A aplicação permite que os usuários gravem sequências de ações do teclado e do mouse e as reproduzam com precisão, oferecendo múltiplos motores de reprodução para compatibilidade com diferentes tipos de aplicativos e jogos. As configurações são persistentes, salvas em um arquivo `config.json`, permitindo que atalhos, temas e outras preferências sejam mantidos entre as sessões.
+A aplicação permite que os usuários gravem sequências de ações do teclado e do mouse e as reproduzam, oferecendo múltiplos motores de reprodução para compatibilidade com diferentes tipos de aplicativos e jogos. As configurações são salvas em um arquivo `config.json`.
 
 ### Tecnologias e Conceitos Chave
 
@@ -38,17 +35,17 @@ A aplicação permite que os usuários gravem sequências de ações do teclado 
 
 ### Recursos Principais
 
--   **Gravação de Teclado e Mouse:** Grave pressões de teclas, cliques, movimentos e rolagem do mouse.
+-   **Gravação:** Capture acionamento de teclas, cliques, movimentos e rolagem do mouse.
 -   **Modos de Gravação:** Escolha gravar "Teclado e Mouse", "Somente Teclado" ou "Somente Mouse".
--   **Controle de Reprodução:** Defina o número de repetições, loop infinito e o tempo de pausa entre as repetições.
--   **Atalhos Globais:** Configure atalhos de teclado para iniciar/parar a gravação e a reprodução de qualquer lugar do sistema.
+-   **Controle de Reprodução:** Defina o número de repetições e o tempo de pausa entre as repetições.
+-   **Atalhos:** Configure atalhos de teclado para iniciar/parar a gravação e a reprodução de qualquer lugar do sistema.
 -   **Interface Moderna:**
     -   Temas claro e escuro.
     -   Modo "Mini" para um controle discreto na tela.
-    -   Opção de manter a janela sempre visível ("Pin").
--   **Seleção de Motor:** Alterne entre Pynput, PyAutoGUI e PyDirectInput para máxima compatibilidade.
+    -   Opção de manter a janela sempre visível.
+-   **Multiplos Motores:** Alterne entre Pynput, PyAutoGUI e PyDirectInput.
 -   **Execução em Janela Específica:** Configure a macro para ser executada apenas quando uma janela específica estiver em primeiro plano.
--   **Salvar e Carregar Macros:** As sequências de ações gravadas podem ser salvas em arquivos `.json` e carregadas posteriormente.
+-   **Salvar e Carregar:** As sequências de ações gravadas podem ser salvas em arquivos `.json` e carregadas.
 
 ---
 
@@ -68,16 +65,19 @@ A aplicação permite que os usuários gravem sequências de ações do teclado 
 
 ---
 
-### Como Começar
+### Downloads
 
-#### Pré-requisitos
+Release v1.0.0:
+https://github.com/NONATO-03/gravador-teclado-python/releases/tag/v1.0.0
 
--   Python 3.x instalado no seu sistema
--   `pip` (gerenciador de pacotes do Python)
+## Caso prefira executar o código fonte
 
-#### Instalação e Execução
+Pré-requisitos
+ Python 3.x instalado no seu sistema e `pip` (gerenciador de pacotes do Python)
 
-1.  **Clone o repositório (ou baixe os arquivos):**
+ Instalação e Execução do repositório 
+
+1.  **Clone o repositório:**
     ```sh
     git clone[https://github.com/NONATO-03/gravador-teclado-python.git]
     ```
@@ -95,7 +95,7 @@ A aplicação permite que os usuários gravem sequências de ações do teclado 
     ```sh
     pip install -r requirements.txt
     ```
-5.  **Execute a aplicação:**
+5.  **Execute:**
     ```sh
     python main.py
     ```
