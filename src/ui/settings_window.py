@@ -6,12 +6,17 @@ from tkinter import ttk, messagebox
 from pynput.keyboard import Listener, Key
 
 from ..managers import window_manager
+from ..utils import resource_path
 
 class SettingsWindow(tk.Toplevel):
     def __init__(self, parent, config, on_save_callback):
         super().__init__(parent)
         self.transient(parent)
         self.title("Configurações")
+        try:
+            self.iconbitmap(resource_path('img/icon.ico'))
+        except tk.TclError:
+            print("Aviso: O arquivo de ícone para a janela de configurações não foi encontrado.")
         self.geometry("480x600")
         self.parent = parent
         self.config = config
@@ -107,7 +112,6 @@ class SettingsWindow(tk.Toplevel):
         ttk.Label(window_frame, text="Título da Janela (ou parte dele):").pack(anchor=tk.W)
         window_entry = ttk.Entry(window_frame, textvariable=self.window_title_var)
         window_entry.pack(fill=tk.X, expand=True, pady=2)
-        ttk.Button(window_frame, text="Usar Janela Ativa", command=self._get_active_window).pack(anchor=tk.W, pady=4)
 
         # Status e botões 
         self.status_label = ttk.Label(main_frame, text=" ")
@@ -135,13 +139,6 @@ class SettingsWindow(tk.Toplevel):
                 "A alteração do tema será aplicada após reiniciar o aplicativo.",
                 parent=self
             )
-
-    def _get_active_window(self):
-        active_window_title = window_manager.get_active_window_title()
-        if active_window_title:
-            self.window_title_var.set(active_window_title)
-        else:
-            messagebox.showwarning("Aviso", "Não foi possível detectar outra janela ativa.")
 
     def _set_hotkey_listen_mode(self, hotkey_type):
         """Ativa o modo de escuta para definir um novo atalho"""

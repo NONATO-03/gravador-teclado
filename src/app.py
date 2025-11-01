@@ -1,8 +1,3 @@
-"""
-Arquivo principal
-
-"""
-
 import threading
 import time
 import tkinter as tk
@@ -21,7 +16,7 @@ from .utils import resource_path
 
 class FullMacroApp:
     """
-    Classe principal que encapsula toda a lógica da aplicação e da GUI
+    Classe principal que tem toda a lógica da aplicação e da GUI
     """
     def __init__(self, root, config):
         self.root = root
@@ -310,8 +305,8 @@ class FullMacroApp:
             }
             engine_name = self.config.get("playback_engine", "Pynput (Padrão)")
             engine = engine_map.get(engine_name, "pynput")
-            
-            # Obtém o título da janela específica
+
+            # Obtém o título da janela especificada
             window_title = self.config.get("window_specific_title")
 
             self.player.play(self.recorded_events, self.stop_playback_signal, window_title)

@@ -24,8 +24,8 @@ class MacroRecorder:
     def set_record_mode(self, mode):
         """Define o que deve ser gravado."""
         self.record_mode = mode
-        self.record_keyboard = "Mouse" not in self.record_mode
-        self.record_mouse = "Teclado" not in self.record_mode
+        self.record_keyboard = "Teclado" in self.record_mode
+        self.record_mouse = "Mouse" in self.record_mode
 
     def start(self, on_action_callback=None, ignore_keys=None):
         """
