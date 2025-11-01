@@ -69,8 +69,8 @@ As configurações são salvas em um arquivo `config.json`.
 
 ### Downloads
 
-Release v1.0.0:
-https://github.com/NONATO-03/gravador-teclado-python/releases/tag/v1.0.0
+Release v1.0.1:
+https://github.com/NONATO-03/gravador-teclado-python/releases/tag/v1.0.1
 
 ## Caso prefira executar o código fonte
 
