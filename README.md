@@ -15,9 +15,11 @@
 
 ## Sobre o Projeto
 
-Este projeto é uma ferramenta de automação de tarefas construída em Python, utilizando a biblioteca nativa **Tkinter** para a interface gráfica. 
+Uma ferramenta de automação construída em python usando tkinter para interface.
 
-A aplicação permite que os usuários gravem sequências de ações do teclado e do mouse e as reproduzam, oferecendo múltiplos motores de reprodução para compatibilidade com diferentes tipos de aplicativos e jogos. As configurações são salvas em um arquivo `config.json`.
+O arquivo permite que os usuários gravem ações do teclado e do mouse e as reproduzam. O sistema possuí diversos motores para múltiplos cenários.
+
+As configurações são salvas em um arquivo `config.json`.
 
 ### Tecnologias e Conceitos Chave
 
